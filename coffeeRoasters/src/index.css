@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkCyan: #0e8781;
+  --darkGreyBlue: #333d4b;
+  --lightCreamBlue: #fefcf7;
+  --grey: #83888f;
+  --paleOrange: #fdd6ba;
+}
+
+.font-fraunces {
+  font-family: 'Fraunces', sans-serif;
+}
+
+.font-barlow {
+  font-family: 'Barlow', sans-serif;
+}
