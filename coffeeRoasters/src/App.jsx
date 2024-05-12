@@ -21,7 +21,7 @@ function App() {
             element={<About />}
           />
           <Route
-            path='/contact'
+            path='/create'
             element={<Create />}
           />
           <Route

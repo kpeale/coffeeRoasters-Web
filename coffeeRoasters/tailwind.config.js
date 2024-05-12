@@ -7,9 +7,19 @@ export default {
       // => @media (max-width: 1535px) { ... }
 
       xl: { max: '1300px' },
+
+      mw: { min: '1270px' },
+      newmw: { min: '800px' },
       // => @media (max-width: 1279px) { ... }
 
+      mid: { max: '1200px' },
+      tbm: { max: '1122px' },
+
       wbm: { max: '1118px' },
+
+      fbm: { max: '1098px' },
+
+      hbm: { max: '1034px' },
 
       lg: { max: '1023px' },
       // => @media (max-width: 1023px) { ... }

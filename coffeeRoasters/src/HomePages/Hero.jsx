@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 function Hero() {
   return (
     <>
@@ -20,7 +21,7 @@ function Hero() {
 
           <div className='mt-10 lg:mt-10 md:flex md:flex-row md:justify-center'>
             <button className='text-white py-2 px-4 rounded-md bg-[#0e8781] font-fraunces text-[1.125rem] md:text-[1rem]'>
-              Create your plan
+              <Link to='/create'>Create your plan</Link>
             </button>
           </div>
         </div>

@@ -1,8 +1,14 @@
+import CoffeePackg from '../CreatePages/CoffeePackg';
+import HomeCrt from '../CreatePages/HomeCrt';
+import WorksCrt from '../CreatePages/WorksCrt';
+
 function Create() {
   return (
-    <div>
-      <p>hi</p>
-    </div>
+    <>
+      <HomeCrt />
+      <WorksCrt />
+      <CoffeePackg />
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 function WhyChooseUs() {
   return (
     <>
-      <section className='mx-20 mt-[40rem] lg:mt-[60rem] bg-[#333d4b] rounded-md h-[400px] lg:h-[550px] lg:mx-10 md:mt-[100rem] md:h-[750px]'>
+      <section className='mx-20 mt-[10rem]  bg-[#333d4b] rounded-md h-[400px] lg:h-[550px] lg:mx-10  md:h-[750px]'>
         <div className='text-white pt-20'>
           <h2 className='text-center font-fraunces text-[2.5rem] font-bold xsm:text-[1.8rem]'>
             Why choose us?
