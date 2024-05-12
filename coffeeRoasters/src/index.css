@@ -17,3 +17,48 @@
 .font-barlow {
   font-family: 'Barlow', sans-serif;
 }
+
+.hero-section{
+  background-image: url('/images/Bitmap.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 80vh;
+ border-radius: 20px;
+}
+
+.line{
+  border-top: 2px solid #FDD6BA;
+  width: 21rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    background-image: url('/images/Bitmap-tab.jpg');
+    
+  }
+
+  .line{
+  border-top: 2px solid #FDD6BA;
+  width: 21rem;
+}
+}
+
+@media (max-width: 1024px) {
+  
+  .line{
+   width: 15rem;
+}
+}
+
+@media (max-width: 800px) {
+  .hero-section {
+    background-image: url('/images/Bitmap-mobile.jpg');
+  }
+}
+
+.text-gradient {
+  background-image: linear-gradient(to bottom, #979797, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

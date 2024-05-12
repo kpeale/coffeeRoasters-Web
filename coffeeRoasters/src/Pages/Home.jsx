@@ -1,8 +1,16 @@
+import Collection from '../HomePages/Collection';
+import Hero from '../HomePages/Hero';
+import WhyChooseUs from '../HomePages/WhyChooseUs';
+import Works from '../HomePages/Works';
+
 function Home() {
   return (
-    <div>
-      <p>hi</p>
-    </div>
+    <>
+      <Hero />
+      <Collection />
+      <WhyChooseUs />
+      <Works />
+    </>
   );
 }
 

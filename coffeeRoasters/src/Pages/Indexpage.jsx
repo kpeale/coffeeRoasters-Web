@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 const Indexpage = () => {
   return (
@@ -7,6 +8,8 @@ const Indexpage = () => {
       <Navigation />
 
       <Outlet />
+
+      <Footer />
     </>
   );
 };
